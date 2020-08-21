@@ -13,7 +13,7 @@
       "skillInfrastructure": {
         "userConfig": {
           "runtime": "java8",
-          "handler": "com.amazon.ask.kairdo.KairStreamHandler",
+          "handler": "com.amazon.ask.kair.KairStreamHandler",
           "awsRegion": "us-west-1"
         },
         "type": "@ask-cli/lambda-deployer"

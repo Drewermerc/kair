@@ -5,14 +5,23 @@
         "es-MX": {
           "summary": "Servicio de la calidad del aire en México",
           "examplePhrases": [
-            "Alexa, abrir calidad del aire",
-            "Ciudad de México",
-            "Guadalajara"
+            "Alexa abrir calidad del aire"
           ],
           "name": "Calidad del aire",
           "description": "Este es un skill que te permite saber el valor promedio de la calidad del aire en las ciudades en México en tiempo real para que puedas decir si es conveniente realizar actividades al aire libre como correr o alguna reunion familiar.\n\nToda la información es obtenida del sitio https://waqi.info",
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/95f9/826967ee223e402094362a9730257c95/APP_ICON?versionId=iIdZROvcPgoB8SfBiwBHsAUbWA6KTyjr&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200820T025740Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200820%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eefcb4fac67d7137c580fba7feccea7122a5fb78a21b6e93b65cb89f25123204",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c724/92df906be3ee4b7e9c1d315207c6b4a6/APP_ICON_LARGE?versionId=.TXrJD4PjMVDXMR4bUZqj4rjxBXdxCz_&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200820T025740Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200820%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=09058dbdba76d76146526136ff0fb09351d57102e23dcc9f228689be6dcac2a9"
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c724/92df906be3ee4b7e9c1d315207c6b4a6/APP_ICON_LARGE?versionId=.TXrJD4PjMVDXMR4bUZqj4rjxBXdxCz_&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200820T025740Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QIH3MSWPB%2F20200820%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=09058dbdba76d76146526136ff0fb09351d57102e23dcc9f228689be6dcac2a9",
+          "keywords": [
+            "calidad del aire",
+            "monitor del aire",
+            "monitor de aire",
+            "aire",
+            "calidad",
+            "saber calidad del aire",
+            "aire libre",
+            "actividades al aire libre",
+            "salir"
+          ]
         }
       },
       "isAvailableWorldwide": true,
