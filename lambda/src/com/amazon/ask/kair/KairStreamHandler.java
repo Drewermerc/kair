@@ -14,11 +14,13 @@ import com.amazon.ask.Skill;
 import com.amazon.ask.Skills;
 import com.amazon.ask.SkillStreamHandler;
 import com.amazon.ask.kair.handlers.*;
+import com.amazon.ask.kair.share.Constants;
 
 public class KairStreamHandler extends SkillStreamHandler {
 
     private static Skill getSkill() {
         return Skills.standard()
+                .withSkillId(Constants.SKILL_ID)
                 .addRequestHandlers(
                         new CancelandStopIntentHandler(),
                         new AirQualityIntentHandlerMx(),
