@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AirQualityIntent",
+          "samples": [
+            " {city}",
+            "es {city}",
+            "en {city}",
+            "estado de {city}",
+            "ciudad de {city}",
+            "la ciudad de {city}",
+            "el estado de {city}"
+          ],
+          "slots": [
+            {
+              "name": "city",
+              "type": "AMAZON.SearchQuery"
+            }
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "invocationName": "calidad del aire"
+    }
+  }
+}
