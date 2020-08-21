@@ -10,9 +10,10 @@ Got project root which is and ASK CLI project, here you will need the following 
 
 - Need an AWS account with permissions to deploy AWS Lambda function and Alexa Skill.
 - Have AWS CLI installed and configuration already set locally for ask deploy.
-- Set the following environment variable:
+- Set the following environment variables:
 ```
 TOKEN -> WAQI API token
+SKILL_ID -> Skill id
 ``` 
 - Will need S3 bucket to hold skill logo.
 - This is a maven project, make sure to have java and maven cli installed to build the project
